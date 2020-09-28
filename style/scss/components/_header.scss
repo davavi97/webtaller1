@@ -9,3 +9,30 @@ $pixel2Max:411px;
 //PhoneWidth
 $phoneWidth:412px;
 
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: center;
+    padding-top:30px;
+    
+    .mainheader__btn{
+    display: none;
+    }
+    .header__nav{
+    color: $textColor;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: center;
+    .nav__home{
+    font-weight: $fontweight;
+    color: #8AA093;
+    text-decoration: none;
+    }
+}
+}
