@@ -34,3 +34,35 @@ body{
     background-repeat: no-repeat;
     
 }
+
+.home{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-top:100px;
+    margin-left:150px;
+    .home__title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 96px;
+    display: flex;
+    color: #8AA093;
+    margin-bottom: 20px;
+    }
+    .home__description{
+    margin-top: 0px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    }
+}
