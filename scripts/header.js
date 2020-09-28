@@ -6,7 +6,7 @@ console.log(window.pageYOffset);
     } else if(window.pageYOffset >=0){
         nav.classList.remove>('header--position');
     }
-
+ 
 
 
 var btn = document.querySelector('.mainheader__btn');
