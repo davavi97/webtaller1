@@ -17,3 +17,4 @@ var btn = document.querySelector('.mainheader__btn');
 }
 
 btn.addEventListener('click', handleClick);
+

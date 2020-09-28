@@ -33,36 +33,635 @@ body{
     height: 659px;   
     background-repeat: no-repeat;
     
+    .home{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+        align-items: flex-start;
+        margin-top:100px;
+        margin-left:150px;
+        .home__title{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 96px;
+            display: flex;
+            color: #8AA093;
+            margin-bottom: 20px;
+        }
+        .home__description{
+            margin-top: 0px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 27px;
+            display: flex;
+            align-items: center;
+            
+            color: #000000;
+            
+        }
+        .home__description2{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 27px;
+            display: flex;
+            align-items: center;
+            
+            color: #404040;
+            
+        }
+        
+        .home__buy{
+            background-color:#e1e7e3;
+            border-radius:28px;
+            cursor:pointer;
+            color:#8aa093;
+            font-family:Poppins;
+            font-size:17px;
+            padding:11px 40px;
+            text-decoration:none;
+            box-shadow: 0px 4px 4px rgba(138, 160, 147, 0.29);     
+            font-weight: bold;
+            
+        }
+        
+    }
+    .benefits{
+        margin-bottom: 50px;
+        .benefits__titles{
+            margin-top:160px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            background: #EEE6E3;
+            width: 100%;
+            height: 350px;
+            
+            .benefits__title{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 23px;
+                line-height: 101.5%;
+                /* or 37px */
+                
+                text-align: center;
+                
+                color: #8AA093;
+            }
+            
+            .benefits__description{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 101.5%;
+                /* or 30px */
+                
+                text-align: center;
+                
+                color: #8AA093;
+                
+            }
+            
+            
+        }
+        
+        .benefits__caracteristics{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: center;
+            align-items: center;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 101.5%;
+            text-align: center;
+            color: #404040;
+            margin-top:-80px;
+            .caracteristics__one{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+                
+            }
+            .caracteristics__two{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+            }
+            .caracteristics__tree{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+            }
+        }
+    }
+    
+    .cuidados{
+        background-image: url("/Img/cuidadosImage.png");
+        width: 100%;
+        height: 800px;
+        
+        
+        .cuidados__information{
+            margin-right: 100px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: flex-end;
+            align-items: flex-end;
+            
+            
+            
+            .information__title{
+                margin-top:50px;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 44px;
+                line-height: 56px;
+                display: flex;
+                align-items: flex-end;
+                text-align: right;
+                
+                color: #8AA093;
+                
+            }
+            
+            .information__info{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 118.5%;
+                /* or 21px */
+                
+                display: flex;
+                align-items: center;
+                text-align: right;
+                
+                color: #000000;
+            }
+            
+            .information__points{
+                margin-top:50px;
+                width: 600px;
+                height: 300px;
+            }
+            
+        }
+    }
+    
+    .off{
+        background-image: url("/Img/DescuentoFondo.png");
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        
+        .off__title{
+            margin-bottom: 10px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 56px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            
+            color: #FFFFFF;
+        }
+        
+        .off__text{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 88%;
+            /* or 32px */
+            
+            display: flex;
+            align-items: center;
+            text-align: center;
+            
+            color: #FFFFFF;
+            
+        }
+        
+        .off__buy{
+            margin-top: 10px;
+            margin-bottom: 40px;
+            background-color:#e1e7e3;
+            border-radius:28px;
+            cursor:pointer;
+            color:#8aa093;
+            font-family:Poppins;
+            font-size:17px;
+            font-weight: bold;
+            
+            padding:11px 40px;
+            text-decoration:none;
+            box-shadow: 0px 4px 4px rgba(138, 160, 147, 0.29);        
+        }
+    }
+    
+    .moreAbout{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        
+        p{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 44px;
+            line-height: 90%;
+            /* or 58px */
+            
+            text-align: center;
+            
+            color: #8AA093;
+            
+        }
+
+        .moreAbout__aloeVeraIMG{
+            width: 800px;
+            overflow: hidden; 
+        }
+
+        .moreAbout__aloeVeraIMG--brightness img {
+            transition: transform 2s, filter 1.5s ease-in-out;
+            transform-origin: center center;
+            filter: brightness(50%);
+          }
+          
+          /* The Transformation */
+          .moreAbout__aloeVeraIMG--brightness:hover img {
+            filter: brightness(100%);
+            transform: scale(1.3);
+          }
+    }
+    
+    
 }
 
-.home{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: flex-start;
-    align-items: flex-start;
-    margin-top:100px;
-    margin-left:150px;
-    .home__title{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 96px;
-    display: flex;
-    color: #8AA093;
-    margin-bottom: 20px;
+@media screen and (max-width: 412px){
+    body{
+    
+        margin: 0px;
+        padding: 0px;
+        font-family: $font;
+        
+        background-image: url("/Img/header_photoPhone.png");        
+        background-size: 100%;
+        width: 100%;
+    
+        height: 659px;   
+        background-repeat: no-repeat;
+        
+        .home{
+            margin-top: -25px ;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: flex-start;
+            align-items: flex-start;
+            width: 300px;
+            .home__title{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 35px;
+                line-height: 96px;
+                display: flex;
+                color: #8AA093;
+                margin-bottom: 10px;
+            }
+            .home__description{
+                margin-top:-25px;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 15px;
+                display: flex;
+                align-items: center;
+                
+                color: #000000;
+                
+                
+            }
+            .home__description2{
+                margin-top:-10px;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 10px;
+                line-height: 27px;
+                display: flex;
+                align-items: center;
+                
+                color: #404040;
+                
+            }
+            
+            .home__buy{
+                background-color:#e1e7e3;
+                border-radius:28px;
+                cursor:pointer;
+                color:#8aa093;
+                font-family:Poppins;
+                font-size:14px;
+                padding:8px 30px;
+                text-decoration:none;
+                box-shadow: 0px 4px 4px rgba(138, 160, 147, 0.29);     
+                font-weight: bold;
+                
+            }
+            
+        }
+        .benefits{
+            margin-bottom: 50px;
+            margin-top:-110px;
+            background: #EEE6E3;
+            width: 100%;
+            
+            .benefits__titles{
+                margin-top:160px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+               
+                
+                .benefits__title{
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 23px;
+                    line-height: 101.5%;
+                    /* or 37px */
+                    
+                    text-align: center;
+                    
+                    color: #8AA093;
+                }
+                
+                .benefits__description{
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 101.5%;
+                    /* or 30px */
+                    
+                    text-align: center;
+                    
+                    color: #8AA093;
+               
+                    
+                }
+                
+                
+            }
+            
+            .benefits__caracteristics{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-content: center;
+                align-items: center;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 101.5%;
+                text-align: center;
+                color: #404040;
+                margin-top:-80px;
+                .caracteristics__one{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    
+                }
+                .caracteristics__two{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                }
+                .caracteristics__tree{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+        
+        .cuidados{
+            background-image: url("/Img/cuidadosPhone.png");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin-top:-50px;
+            
+         
+            .cuidados__information{
+               
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+                margin: 0;
+                
+                .information__title{
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 23px;
+                    line-height: 56px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    
+                    color: #8AA093;
+                    
+                }
+                
+                .information__info{
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 10px;
+                    line-height: 103%;
+                    /* or 10px */
+                    
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    
+                    color: #000000;
+                }
+                
+                .information__points{
+                    margin-top:50px;
+                    width: 350px;
+                    height: 180px;
+                }
+                
+            }
+        }
+        
+        .off{
+            background-image: url("/Img/DescuentoFondo.png");
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            margin-top:-300px;
+            
+            .off__title{
+                margin-bottom: 10px;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 35px;
+                line-height: 56px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                
+                color: #FFFFFF;
+            }
+            
+            .off__text{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 88%;
+                /* or 32px */
+                
+                display: flex;
+                align-items: center;
+                text-align: center;
+                
+                color: #FFFFFF;
+                
+            }
+            
+            .off__buy{
+                margin-top: 10px;
+                margin-bottom: 40px;
+                background-color:#e1e7e3;
+                border-radius:28px;
+                cursor:pointer;
+                color:#8aa093;
+                font-family:Poppins;
+                font-size:14px;
+                font-weight: bold;
+                
+                padding:11px 40px;
+                text-decoration:none;
+                box-shadow: 0px 4px 4px rgba(138, 160, 147, 0.29);        
+            }
+        }
+        
+        .moreAbout{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            
+            p{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 90%;
+                /* or 58px */
+                
+                text-align: center;
+                
+                color: #8AA093;
+                
+            }
+    
+            .moreAbout__aloeVeraIMG{
+                width: 100%;
+                overflow: hidden; 
+            }
+    
+            .moreAbout__aloeVeraIMG--brightness img {
+                transition: transform 2s, filter 1.5s ease-in-out;
+                transform-origin: center center;
+                filter: brightness(50%);
+              }
+              
+              /* The Transformation */
+              .moreAbout__aloeVeraIMG--brightness:hover img {
+                filter: brightness(100%);
+                transform: scale(1.3);
+              }
+        }
+        
+        
     }
-    .home__description{
-    margin-top: 0px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 27px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-    }
+
 }
+
+
+
+
