@@ -334,7 +334,7 @@ body {
         -ms-flex-align: center;
         align-items: center; }
   body .cuidados {
-    background-image: url("/Img/cuidadosImage.png");
+    background-image: url("./Img/cuidadosImage.png");
     width: 100%;
     height: 800px; }
     body .cuidados .cuidados__information {
@@ -391,7 +391,7 @@ body {
         width: 600px;
         height: 300px; }
   body .off {
-    background-image: url("/Img/DescuentoFondo.png");
+    background-image: url("./Img/DescuentoFondo.png");
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -708,7 +708,7 @@ body {
           align-items: center;
           margin-bottom: 50px; }
     body .cuidados {
-      background-image: url("/Img/cuidadosPhone.png");
+      background-image: url("./Img/cuidadosPhone.png");
       background-size: 100%;
       background-repeat: no-repeat;
       margin-top: -50px; }
@@ -765,7 +765,7 @@ body {
           width: 350px;
           height: 180px; }
     body .off {
-      background-image: url("/Img/DescuentoFondo.png");
+      background-image: url("./Img/DescuentoFondo.png");
       width: 100%;
       display: -webkit-box;
       display: -ms-flexbox;
